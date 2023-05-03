@@ -1,0 +1,121 @@
+.discount {
+    margin: 80px 140px;
+
+    &__title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 130%;
+        /* or 44px */
+
+        display: flex;
+        align-items: center;
+
+        /* Text/2F323A */
+        &__Btn {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 136%;
+            /* or 24px */
+
+
+            /* Text/171B24 */
+            background: #FFFFFF;
+            /* BG/D1D1D3 */
+
+            border: 1px solid #D1D1D3;
+            padding: 12px 24px;
+
+            color: #171B24;
+        }
+
+        color: #2F323A;
+    }
+
+    &-card {
+        border: 1px solid #E8E9EA;
+        margin-bottom: 16px;
+
+        &__left {
+            position: relative;
+
+        }
+
+        &__img {
+            width: 100%;
+            object-fit: cover;
+        }
+
+        &__amount {
+            position: absolute;
+            padding: 4px 8px;
+            top: 16px;
+            left: 16px;
+            border: 2px solid #FBE303;
+            background: #ffffff;
+        }
+
+        &__text {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            color: #2F323A;
+            max-height: 72px;
+            min-height: 72px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+
+        }
+
+        &__price {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 140%;
+            color: #171B24;
+            margin-bottom: 16px;
+        }
+
+        &__oldprice {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            color: #8B8D92;
+            font-style: normal;
+
+
+            color: #8B8D92;
+            text-decoration: line-through;
+
+        }
+
+        &__righte {
+            padding: 16px;
+
+        }
+
+        &__link {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 136%;
+            /* or 24px */
+
+
+            /* Text/171B24 */
+
+            color: #171B24;
+            display: inline-block;
+            padding: 12px;
+            background: #FCEC41;
+            width: 100%;
+            text-align: center;
+        }
+    }
+}

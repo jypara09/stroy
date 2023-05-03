@@ -1,0 +1,215 @@
+@import '../fonts/manrope.css';
+@import '../libs/bootstrap/bootstrap.min.css';
+@import '../libs/owl/owl.carousel.min.css';
+@import '../libs/owl/owl.theme.default.css';
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+a, a hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.header-top {
+  background: #F6F6F6;
+  padding: 10px 0px;
+}
+.header-top__box {
+  display: flex;
+  justify-content: space-between;
+}
+.header-top .header-top__menu {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+.header-top__link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 145%;
+  /* identical to box height, or 22px */
+  /* Text/5D6066 */
+  color: #5D6066;
+}
+.header-top__menu {
+  gap: 24px;
+}
+.header-middle {
+  padding: 16px 0;
+  border-bottom: 1px solid #E8E9EA;
+}
+.header-middle__common {
+  gap: 16px;
+}
+.header-middle__catalog {
+  display: flex;
+  align-items: center;
+  padding: 12px 22px;
+  gap: 8px;
+  background: #FCEC41;
+}
+.header-middle__catalog__form {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.header-middle__catalog__form-input {
+  width: 100%;
+  border: none;
+  background: #F6F6F6;
+  border-bottom: 1px solid #D1D1D3;
+  padding: 12px 16px;
+}
+.header-middle__catalog:focus {
+  outline: none;
+}
+.header-middle__catalog__form-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 48px;
+  border: none;
+  background: none;
+  padding: 0;
+}
+.header-middle__catalog__profile {
+  display: flex;
+}
+.header-middle__catalog__profile-links {
+  max-width: 82px;
+  width: 100%;
+  text-align: center;
+}
+.header-middle-bottom {
+  border-bottom: 1px solid #E8E9EA;
+  padding: 10px;
+}
+.header-middle-bottom__link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+  /* Text/454950 */
+  color: #454950;
+}
+
+.home {
+  padding: 40px 40px 0;
+}
+.home-slide {
+  padding: 40px 100px;
+}
+.home-slide_1 {
+  background: url("../img/home/slide-1.png") center/cover no-repeat;
+}
+.home-slide_2 {
+  background: url("../img/home/slide-1.png") center/cover no-repeat;
+}
+
+.discount {
+  margin: 80px 140px;
+}
+.discount__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 130%;
+  /* or 44px */
+  display: flex;
+  align-items: center;
+  /* Text/2F323A */
+  color: #2F323A;
+}
+.discount__title__Btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 136%;
+  /* or 24px */
+  /* Text/171B24 */
+  background: #FFFFFF;
+  /* BG/D1D1D3 */
+  border: 1px solid #D1D1D3;
+  padding: 12px 24px;
+  color: #171B24;
+}
+.discount-card {
+  border: 1px solid #E8E9EA;
+  margin-bottom: 16px;
+}
+.discount-card__left {
+  position: relative;
+}
+.discount-card__img {
+  width: 100%;
+  object-fit: cover;
+}
+.discount-card__amount {
+  position: absolute;
+  padding: 4px 8px;
+  top: 16px;
+  left: 16px;
+  border: 2px solid #FBE303;
+  background: #ffffff;
+}
+.discount-card__text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #2F323A;
+  max-height: 72px;
+  min-height: 72px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.discount-card__price {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  color: #171B24;
+  margin-bottom: 16px;
+}
+.discount-card__oldprice {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #8B8D92;
+  font-style: normal;
+  color: #8B8D92;
+  text-decoration: line-through;
+}
+.discount-card__righte {
+  padding: 16px;
+}
+.discount-card__link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 136%;
+  /* or 24px */
+  /* Text/171B24 */
+  color: #171B24;
+  display: inline-block;
+  padding: 12px;
+  background: #FCEC41;
+  width: 100%;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */

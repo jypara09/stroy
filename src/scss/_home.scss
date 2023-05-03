@@ -1,0 +1,17 @@
+.home {
+    padding: 40px 40px 0;
+
+    &-slide {
+        padding: 40px 100px;
+
+        &_1 {
+            background: url('../img/home/slide-1.png') center/cover no-repeat;
+
+        }
+
+        &_2 {
+            background: url('../img/home/slide-1.png') center/cover no-repeat;
+        }
+    }
+
+}
